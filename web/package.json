@@ -1,0 +1,11 @@
+{
+  "name": "liga-este-web",
+  "private": true,
+  "description": "Build-time only: compiles the static Tailwind stylesheet for the PWA. No runtime dependencies.",
+  "scripts": {
+    "build:css": "tailwindcss -i css/input.css -o css/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
