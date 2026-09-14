@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>Liga Este 26-27 · Colección Oficial</title>
+<meta name="theme-color" content="#180e27">
+<meta name="description" content="Checklist offline de la colección de cromos Liga Este 2026-27.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.ico">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen">
+
+<header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_4px_20px_rgba(0,0,0,0.35)]">
+  <div class="px-gutter flex flex-col gap-space-sm py-space-sm">
+    <div class="flex items-center justify-between gap-space-sm">
+      <div class="flex items-center gap-space-sm">
+        <div class="px-space-xs py-0.5 bg-error-container rounded flex items-center justify-center">
+          <span class="font-label-sm text-label-sm text-tertiary tracking-wider uppercase">PANINI</span>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-headline-md text-headline-md text-primary-container tracking-tight italic uppercase drop-shadow-[0_0_8px_rgba(253,228,0,0.4)] leading-none">LIGA ESTE 26-27</span>
+          <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mt-0.5">Colección Oficial</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-space-sm">
+        <button id="open-backup" class="w-11 h-11 rounded-full bg-surface-container flex items-center justify-center text-primary-container hover:bg-surface-container-high transition-colors" aria-label="Copia de seguridad" data-icon="qr_code_scanner"></button>
+        <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center" data-icon-wrap="person"></div>
+      </div>
+    </div>
+    <div class="bg-surface-container-low rounded-lg p-space-sm">
+      <div class="flex justify-between items-center mb-space-xs">
+        <div class="flex items-center gap-space-xs">
+          <span class="text-primary-container" data-icon="auto_awesome"></span>
+          <span class="font-label-md text-label-md text-on-surface">ÁLBUM COMPLETO</span>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <span id="album-count" class="font-label-md text-label-md text-primary-container">0 / 0</span>
+          <span id="album-pct" class="font-label-sm text-label-sm text-on-surface-variant">(0%)</span>
+        </div>
+      </div>
+      <div class="w-full h-2.5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+        <div id="album-bar" class="h-full bg-primary-container rounded-full shadow-[0_0_8px_rgba(253,228,0,0.6)] transition-all duration-500" style="width: 0%"></div>
+      </div>
+    </div>
+    <div class="relative flex items-center">
+      <span class="absolute left-space-md text-on-surface-variant pointer-events-none" data-icon="search"></span>
+      <input id="global-search" class="w-full h-11 pl-11 pr-space-lg bg-surface-container-high text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm rounded-lg focus:outline-none focus:bg-surface-bright focus:text-primary transition-all" placeholder="Buscar cromo, dorsal o jugador..." type="search" autocomplete="off">
+      <div id="search-results" class="hidden absolute top-full mt-1 inset-x-0 bg-surface-container-high rounded-lg shadow-xl max-h-72 overflow-y-auto z-50"></div>
+    </div>
+  </div>
+</header>
+
+<main id="view-root" class="flex flex-col relative w-full pt-[168px] pb-28 bg-surface px-gutter flex-1"></main>
+
+<nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.4)]" id="bottom-nav">
+  <div class="flex justify-around items-center h-20 px-space-xs">
+    <a class="flex flex-col items-center justify-center gap-1 w-16 h-16 text-on-surface-variant hover:text-on-surface transition-colors" data-path="equipos" href="#/equipos">
+      <span data-icon="shield"></span>
+      <span class="font-label-sm text-label-sm tracking-wide uppercase">Equipos</span>
+    </a>
+    <a class="flex flex-col items-center justify-center gap-1 w-16 h-16 text-on-surface-variant hover:text-on-surface transition-colors" data-path="cromos" href="#/cromos">
+      <span data-icon="grid_view"></span>
+      <span class="font-label-sm text-label-sm tracking-wide uppercase">Cromos</span>
+    </a>
+    <a class="flex flex-col items-center justify-center gap-1 w-16 h-16 text-on-surface-variant hover:text-on-surface transition-colors" data-path="repes" href="#/repes">
+      <span data-icon="swap_horizontal_circle"></span>
+      <span class="font-label-sm text-label-sm tracking-wide uppercase">Repes</span>
+    </a>
+    <a class="flex flex-col items-center justify-center gap-1 w-16 h-16 text-on-surface-variant hover:text-on-surface transition-colors" data-path="stats" href="#/stats">
+      <span data-icon="analytics"></span>
+      <span class="font-label-sm text-label-sm tracking-wide uppercase">Stats</span>
+    </a>
+  </div>
+</nav>
+
+<dialog id="backup-panel" class="bg-surface-container text-on-surface rounded-xl p-0 border border-surface-container-highest backdrop:bg-black/60 w-[min(90vw,380px)]">
+  <div class="p-space-md flex flex-col gap-space-md">
+    <div class="flex items-center justify-between">
+      <span class="font-headline-md text-headline-md text-primary">Copia de seguridad</span>
+      <button id="close-backup" class="text-on-surface-variant" aria-label="Cerrar" data-icon="close"></button>
+    </div>
+    <p class="font-body-sm text-body-sm text-on-surface-variant">
+      Tu progreso vive solo en este navegador. Exporta una copia para no perderlo o para
+      pasarlo a otro dispositivo.
+    </p>
+    <button id="export-backup-btn" class="flex items-center justify-center gap-2 bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider py-2.5 rounded-lg active:scale-95 transition-all">
+      <span data-icon="download"></span> Exportar copia
+    </button>
+    <label class="flex items-center justify-center gap-2 bg-surface-container-high text-primary-container font-label-md text-label-md uppercase tracking-wider py-2.5 rounded-lg cursor-pointer active:scale-95 transition-all">
+      <span data-icon="upload"></span> Importar copia
+      <input id="import-backup-input" type="file" accept="application/json" class="hidden">
+    </label>
+    <span id="backup-status" class="font-label-sm text-label-sm text-on-surface-variant"></span>
+  </div>
+</dialog>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
