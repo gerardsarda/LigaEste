@@ -1,0 +1,2697 @@
+[
+  {
+    "ID_Cromo": "CON-Izquierda",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CON-Derecha",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-06",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-08",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ALV-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-15",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-18A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-18B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ALV-20",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ATH-01",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-05",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-6A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-6B",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-08",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-9A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-9B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-11",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ATH-12",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-13Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-14",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-15",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-17A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-17B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATH-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-01",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ATM-02",
+    "Obtenido": true,
+    "Repes": 2
+  },
+  {
+    "ID_Cromo": "ATM-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-04",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-07",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-8A",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-8B",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-09",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-11",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ATM-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-14A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-14B",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-15",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-17",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ATM-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ATM-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-02",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-6A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-6B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-08",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-12",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-14",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FCB-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-04",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-4Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-5A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-5B",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-07",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "BET-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-10",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-15",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "BET-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-17",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "BET-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-05",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-08",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "CEL-9A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-9B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-10",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-14Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-18A",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-18B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "CEL-19",
+    "Obtenido": true,
+    "Repes": 2
+  },
+  {
+    "ID_Cromo": "CEL-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-08",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "DEP-9A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-9B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-10",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DEP-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-03",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-05",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-07",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-08",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-9A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-9B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-10",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ELC-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-13A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-13B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ELC-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-03",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-04",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-05",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ESP-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-08",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-19",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-01",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-02",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "GET-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-09",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-10",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-17",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "GET-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-06",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-07",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-09",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-11",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-14A",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-14B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-15",
+    "Obtenido": true,
+    "Repes": 2
+  },
+  {
+    "ID_Cromo": "LEV-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "LEV-20Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-01",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-02",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-06",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-07",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-08",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-10A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-10B",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-12",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-15A",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-15B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-16A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-16B",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "RMA-17",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "RMA-17Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-19",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RMA-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-01",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-06",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-09",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "MAL-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-12",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-13A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-13B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-19",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "MAL-20",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-01",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "OSA-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-5A",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-5B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-06",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-13A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-13B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-14",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "OSA-20",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-01",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "RAC-02",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-04",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-6Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-08",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "RAC-9A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-9B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-11",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "RAC-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-13",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-14",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-17",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-19",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAC-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-02",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-11A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-11B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-14",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-15",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-18",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RAY-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-04",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-05",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-07",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-08",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-12",
+    "Obtenido": true,
+    "Repes": 3
+  },
+  {
+    "ID_Cromo": "RSO-13A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-13B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-17",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-18",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "RSO-20",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-02",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-6Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-08",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-9A",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-9B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-10",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "SEV-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-15",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-16",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "SEV-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-01",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-04",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-05",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-06",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-07",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-8A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-8B",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "VAL-09",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "VAL-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-16Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-17",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-18",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-19Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VAL-20A",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "VAL-20B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-01",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-4Bis",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-05",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-6A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-6B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-7A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-7B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-8A",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-8B",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-09",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-10",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-11",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-12",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "VIL-20",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "ADN-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-03",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ADN-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-01",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-03",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-06",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-07",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "FAN-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-03",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-04",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-07",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "DRF-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-10",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-11",
+    "Obtenido": true,
+    "Repes": 1
+  },
+  {
+    "ID_Cromo": "DRF-12",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-21",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-22",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "DRF-23",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K1",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K2",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K3",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K4",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K5",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K6",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K7",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K8",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K9",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K11",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K18",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K21",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K22",
+    "Obtenido": true,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "KRO-K23",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-01",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-02",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-03",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-04",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-05",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-06",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-07",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-08",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-09",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-10",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-11",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-12",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-13",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-14",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-15",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-16",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-17",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-18",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-19",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "UF-20",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESB-ES-B1",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESB-ES-B2",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESB-ES-B3",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESB-ES-B4",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESB-ES-B5",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-ES-P1",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-ES-P2",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-ES-P3",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-ES-P4",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESP-ES-P5",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESO-ES-O1",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESO-ES-O2",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESO-ES-O3",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESO-ES-O4",
+    "Obtenido": false,
+    "Repes": 0
+  },
+  {
+    "ID_Cromo": "ESO-ES-O5",
+    "Obtenido": false,
+    "Repes": 0
+  }
+]
