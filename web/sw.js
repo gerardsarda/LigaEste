@@ -1,4 +1,4 @@
-const CACHE = 'liga-este-v2';
+const CACHE = 'liga-este-v3';
 
 const PRECACHE_URLS = [
   './',

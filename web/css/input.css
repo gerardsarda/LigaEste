@@ -6,14 +6,12 @@
   html,
   body {
     width: 100vw;
+    height: 100%;
     margin: 0;
     padding: 0;
     background: #180e27;
     color: #eddcfe;
-    overflow-x: hidden;
-  }
-  body {
-    overscroll-behavior-y: none;
+    overflow: hidden;
   }
   .pb-safe {
     padding-bottom: env(safe-area-inset-bottom, 0px);
@@ -27,6 +25,21 @@
   main > :last-child {
     margin-bottom: 0 !important;
   }
+}
+
+/* #view-root is its own scroll container (not the document) — this is the
+   robust pattern for a fixed header/nav app shell: touch scrolling only
+   ever has to work inside one explicitly-sized, explicitly-scrollable box,
+   instead of depending on the whole document growing taller than the
+   viewport, which some mobile browsers (especially installed PWAs) fail
+   to make touch-scrollable. */
+#view-root {
+  position: fixed;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
 }
 
 ::-webkit-scrollbar {

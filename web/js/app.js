@@ -143,15 +143,23 @@ function setupBackupPanel() {
   });
 }
 
+function syncHeaderHeight() {
+  const header = document.querySelector('header');
+  document.documentElement.style.setProperty('--header-h', `${header.getBoundingClientRect().height}px`);
+}
+
 window.addEventListener('liga-este:progress-changed', updateHeaderProgress);
 window.addEventListener('hashchange', renderRoute);
+window.addEventListener('resize', syncHeaderHeight);
 window.addEventListener('DOMContentLoaded', async () => {
   injectIcons(document);
   setupSearch();
   setupBackupPanel();
+  syncHeaderHeight();
   await initState();
   if (!location.hash) location.hash = '#/equipos';
   await renderRoute();
+  syncHeaderHeight();
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch((err) => console.warn('SW registration failed', err));
   }

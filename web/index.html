@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen">
+<body class="bg-surface font-body-md text-body-md text-on-surface">
 
 <header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_4px_20px_rgba(0,0,0,0.35)]">
   <div class="px-gutter flex flex-col gap-space-sm py-space-sm">
@@ -54,7 +54,7 @@
   </div>
 </header>
 
-<main id="view-root" class="flex flex-col relative w-full pt-[168px] pb-28 bg-surface px-gutter flex-1"></main>
+<main id="view-root" class="flex flex-col w-full bg-surface px-gutter pb-28" style="top: var(--header-h, 168px); bottom: 0;"></main>
 
 <nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(0,0,0,0.4)]" id="bottom-nav">
   <div class="flex justify-around items-center h-20 px-space-xs">
