@@ -1,6 +1,6 @@
 import { TEAM_ORDER, SPECIAL_SECTIONS } from '../data.js';
 import { THEMES, DEFAULT_THEME } from '../themes.js';
-import { getStats, getTeamStats } from '../state.js';
+import { getStats, getTeamStats, countsTowardTotal } from '../state.js';
 import { icon } from '../icons.js';
 
 function kpiCard(label, value, valueClass, sub) {
@@ -21,7 +21,7 @@ function sectionRow(equipo, isSpecial) {
     <div class="w-9 h-9 rounded-lg overflow-hidden flex-shrink-0 shadow-inner" style="background: ${theme.pattern}; ${border}"></div>
     <div class="flex-1 min-w-0">
       <div class="flex items-center justify-between gap-2">
-        <span class="font-body-md text-body-md text-on-surface font-bold truncate">${equipo}${isSpecial ? ' <span class=\'font-label-sm text-label-sm text-secondary\'>(especial)</span>' : ''}</span>
+        <span class="font-body-md text-body-md text-on-surface font-bold truncate">${equipo}${isSpecial ? ' <span class=\'font-label-sm text-label-sm text-secondary\'>(especial)</span>' : ''}${!countsTowardTotal(equipo) ? ' <span class=\'font-label-sm text-label-sm text-on-surface-variant uppercase border border-outline-variant/50 px-1 rounded\'>No cuenta</span>' : ''}</span>
         <span class="font-label-md text-label-md text-primary-container font-bold flex-shrink-0">${pct}%</span>
       </div>
       <div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden mt-1.5">

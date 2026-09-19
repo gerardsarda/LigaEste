@@ -1,6 +1,6 @@
-import { STICKERS, TEAM_ORDER, SPECIAL_SECTIONS } from '../data.js';
+import { TEAM_ORDER, SPECIAL_SECTIONS } from '../data.js';
 import { THEMES, DEFAULT_THEME } from '../themes.js';
-import { getEntry, setObtenido, setRepes, getTeamStats } from '../state.js';
+import { getEntry, setObtenido, setRepes, getTeamStats, getTeamStickers } from '../state.js';
 import { icon } from '../icons.js';
 
 function stickerCard(sticker) {
@@ -39,9 +39,12 @@ function stickerCard(sticker) {
       <span class="inline-flex items-center gap-1 text-primary-container font-label-sm text-label-sm font-bold">
         ${icon('check_circle', 'w-4 h-4')} TINC
       </span>
-      <div class="flex items-center gap-1 bg-surface-container-low px-1 py-0.5 rounded">
-        <span class="font-label-sm text-label-sm text-on-surface-variant px-1">x1</span>
-        <button type="button" data-action="inc" class="w-5 h-5 flex items-center justify-center rounded bg-primary-container text-on-primary font-bold text-xs active:scale-90">+</button>
+      <div class="flex items-center gap-1.5">
+        <button type="button" data-action="quitar" class="text-label-sm font-label-sm text-on-surface-variant uppercase hover:text-error hover:underline">Quitar</button>
+        <div class="flex items-center gap-1 bg-surface-container-low px-1 py-0.5 rounded">
+          <span class="font-label-sm text-label-sm text-on-surface-variant px-1">x1</span>
+          <button type="button" data-action="inc" class="w-5 h-5 flex items-center justify-center rounded bg-primary-container text-on-primary font-bold text-xs active:scale-90">+</button>
+        </div>
       </div>`;
   }
 
@@ -78,9 +81,11 @@ function teamPicker(root) {
       }).join('')}
     </div>
   </div>`;
-  root.querySelectorAll('[data-pick]').forEach((el) => {
-    el.addEventListener('click', () => { location.hash = `#/cromos/${el.dataset.pick}`; });
-  });
+  root.addEventListener('click', (e) => {
+    const el = e.target.closest('[data-pick]');
+    if (!el) return;
+    location.hash = `#/cromos/${el.dataset.pick}`;
+  }, { once: true });
 }
 
 export default function renderCromos(root, param) {
@@ -97,7 +102,7 @@ export default function renderCromos(root, param) {
     highlight = param.slice(qIndex + '?highlight='.length);
   }
 
-  const stickers = STICKERS.filter((s) => s.equipo === equipo).sort((a, b) => a.orden - b.orden);
+  const stickers = getTeamStickers(equipo).slice().sort((a, b) => a.orden - b.orden);
   if (!stickers.length) {
     teamPicker(root);
     return;
@@ -113,7 +118,7 @@ export default function renderCromos(root, param) {
     const { total, obtenidos, pct } = getTeamStats(equipo);
     const faltan = total - obtenidos;
     return `
-    <div class="relative overflow-hidden rounded-xl bg-surface-container-high p-space-md shadow-xl">
+    <div class="banner relative overflow-hidden rounded-xl bg-surface-container-high p-space-md shadow-xl">
       <div class="absolute -right-12 -top-12 w-48 h-48 bg-primary-container/15 rounded-full blur-3xl pointer-events-none"></div>
       <div class="absolute -left-10 -bottom-10 w-44 h-44 bg-secondary-container/40 rounded-full blur-2xl pointer-events-none"></div>
       <div class="relative z-10 flex flex-col gap-space-sm">
@@ -153,16 +158,20 @@ export default function renderCromos(root, param) {
   }
 
   function counts() {
-    const owned = stickers.filter((s) => getEntry(s.id).obtenido).length;
-    const missing = stickers.length - owned;
-    const repe = stickers.filter((s) => getEntry(s.id).repes > 0).length;
-    return { all: stickers.length, owned, missing, repe };
+    let owned = 0;
+    let repe = 0;
+    for (const s of stickers) {
+      const entry = getEntry(s.id);
+      if (entry.obtenido) owned += 1;
+      if (entry.repes > 0) repe += 1;
+    }
+    return { all: stickers.length, owned, missing: stickers.length - owned, repe };
   }
 
   function renderFilters() {
     const c = counts();
     return `
-    <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 sticky top-0 z-30 bg-surface/90 backdrop-blur-md" id="filter-container">
+    <div class="filters flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 sticky top-0 z-30 bg-surface/90 backdrop-blur-md" id="filter-container">
       <button class="filter-tab active px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider transition-all" data-filter="all">Todos (${c.all})</button>
       <button class="filter-tab px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-all" data-filter="owned">Tinc (${c.owned})</button>
       <button class="filter-tab px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-all" data-filter="missing">Falta (${c.missing})</button>
@@ -170,33 +179,9 @@ export default function renderCromos(root, param) {
     </div>`;
   }
 
-  function fullRender() {
-    root.innerHTML = `
-    <div class="flex flex-col w-full gap-space-md">
-      ${renderBanner()}
-      ${renderFilters()}
-      <div class="grid grid-cols-2 gap-space-sm w-full" id="stickers-grid">
-        ${stickers.map(stickerCard).join('')}
-      </div>
-    </div>`;
-    wire();
-  }
-
-  function refreshCard(id) {
-    const sticker = stickers.find((s) => s.id === id);
-    const el = root.querySelector(`.sticker-card[data-id="${CSS.escape(id)}"]`);
-    if (sticker && el) el.outerHTML = stickerCard(sticker);
-    const banner = root.querySelector('.relative.overflow-hidden.rounded-xl.bg-surface-container-high');
-    if (banner) banner.outerHTML = renderBanner();
-    const filters = root.querySelector('#filter-container');
-    if (filters) filters.outerHTML = renderFilters();
-    wire();
-    applyActiveFilter();
-  }
-
   let activeFilter = 'all';
-  function applyActiveFilter() {
-    root.querySelectorAll('.sticker-card').forEach((card) => {
+  function applyActiveFilter(scope) {
+    scope.querySelectorAll('.sticker-card').forEach((card) => {
       const status = card.dataset.status;
       const show = activeFilter === 'all' ||
         (activeFilter === 'owned' && status !== 'missing') ||
@@ -204,7 +189,7 @@ export default function renderCromos(root, param) {
         (activeFilter === 'repe' && status === 'repe');
       card.classList.toggle('hidden', !show);
     });
-    root.querySelectorAll('.filter-tab').forEach((t) => {
+    scope.querySelectorAll('.filter-tab').forEach((t) => {
       const active = t.dataset.filter === activeFilter;
       t.classList.toggle('bg-primary-container', active);
       t.classList.toggle('text-on-primary', active);
@@ -213,34 +198,54 @@ export default function renderCromos(root, param) {
     });
   }
 
-  function wire() {
-    root.querySelectorAll('.filter-tab').forEach((tab) => {
-      tab.addEventListener('click', () => {
-        activeFilter = tab.dataset.filter;
-        applyActiveFilter();
-      });
-    });
-    root.querySelectorAll('.sticker-card [data-action]').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const card = btn.closest('.sticker-card');
-        const id = card.dataset.id;
-        const entry = getEntry(id);
-        const action = btn.dataset.action;
-        if (action === 'marcar') setObtenido(id, true);
-        else if (action === 'inc') setRepes(id, entry.repes + 1);
-        else if (action === 'dec') setRepes(id, Math.max(0, entry.repes - 1));
-        refreshCard(id);
-        window.dispatchEvent(new CustomEvent('liga-este:progress-changed'));
-      });
-    });
-  }
+  root.innerHTML = `
+  <div class="flex flex-col w-full gap-space-md" id="cromos-wrap">
+    ${renderBanner()}
+    ${renderFilters()}
+    <div class="grid grid-cols-2 gap-space-sm w-full" id="stickers-grid">
+      ${stickers.map(stickerCard).join('')}
+    </div>
+  </div>`;
+  const wrap = root.querySelector('#cromos-wrap');
+  applyActiveFilter(wrap);
 
-  fullRender();
-  applyActiveFilter();
+  // Un único listener delegado en el wrapper (creado una vez por visita a
+  // esta vista) en vez de re-enganchar un listener por tarjeta en cada
+  // cambio: evitaba que los listeners se acumularan en las tarjetas no
+  // tocadas y la app se fuera quedando cada vez más lenta/pegada.
+  wrap.addEventListener('click', (e) => {
+    const filterTab = e.target.closest('.filter-tab');
+    if (filterTab) {
+      activeFilter = filterTab.dataset.filter;
+      applyActiveFilter(wrap);
+      return;
+    }
+
+    const btn = e.target.closest('[data-action]');
+    if (!btn) return;
+    const card = btn.closest('.sticker-card');
+    if (!card) return;
+    const id = card.dataset.id;
+    const entry = getEntry(id);
+    const action = btn.dataset.action;
+    if (action === 'marcar') setObtenido(id, true);
+    else if (action === 'quitar') setObtenido(id, false);
+    else if (action === 'inc') setRepes(id, entry.repes + 1);
+    else if (action === 'dec') setRepes(id, Math.max(0, entry.repes - 1));
+    else return;
+
+    const sticker = stickers.find((s) => s.id === id);
+    if (sticker) card.outerHTML = stickerCard(sticker);
+    const banner = wrap.querySelector('.banner');
+    if (banner) banner.outerHTML = renderBanner();
+    const filters = wrap.querySelector('#filter-container');
+    if (filters) filters.outerHTML = renderFilters();
+    applyActiveFilter(wrap);
+    window.dispatchEvent(new CustomEvent('liga-este:progress-changed'));
+  });
 
   if (highlight) {
-    const card = root.querySelector(`.sticker-card[data-id="${CSS.escape(highlight)}"]`);
+    const card = wrap.querySelector(`.sticker-card[data-id="${CSS.escape(highlight)}"]`);
     if (card) {
       card.scrollIntoView({ behavior: 'smooth', block: 'center' });
       card.classList.add('ring-2', 'ring-primary-container');

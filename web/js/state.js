@@ -3,12 +3,43 @@ import { STICKERS } from './data.js';
 const STORAGE_KEY = 'liga-este-progreso';
 const STICKER_IDS = new Set(STICKERS.map((s) => s.id));
 
+// Secciones que se pueden marcar pero no cuentan para el total/porcentaje
+// de la colección (no son parte del álbum oficial de 20 clubs + series).
+export const EXCLUDED_SECTIONS = [
+  'Cromos Conmemorativos -- Jugón 234',
+  'Extra Sticker - Bronce',
+  'Extra Sticker - Plata',
+  'Extra Sticker - Oro',
+];
+const EXCLUDED_SET = new Set(EXCLUDED_SECTIONS);
+export function countsTowardTotal(equipo) {
+  return !EXCLUDED_SET.has(equipo);
+}
+const COUNTED_STICKERS = STICKERS.filter((s) => countsTowardTotal(s.equipo));
+
+const STICKERS_BY_TEAM = new Map();
+for (const s of STICKERS) {
+  if (!STICKERS_BY_TEAM.has(s.equipo)) STICKERS_BY_TEAM.set(s.equipo, []);
+  STICKERS_BY_TEAM.get(s.equipo).push(s);
+}
+export function getTeamStickers(equipo) {
+  return STICKERS_BY_TEAM.get(equipo) || [];
+}
+
+// El estado se cachea en memoria (invalidado en cada escritura) para no
+// volver a parsear el JSON de localStorage en cada llamada — las vistas de
+// listado (Equipos/Stats) leen el estado decenas de veces por render.
+let cache = null;
+
 function readRaw() {
+  if (cache) return cache;
   const raw = localStorage.getItem(STORAGE_KEY);
-  return raw ? JSON.parse(raw) : null;
+  cache = raw ? JSON.parse(raw) : {};
+  return cache;
 }
 
 function writeRaw(state) {
+  cache = state;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 }
 
@@ -17,7 +48,7 @@ function emptyEntry() {
 }
 
 export async function initState() {
-  if (readRaw() !== null) return;
+  if (localStorage.getItem(STORAGE_KEY) !== null) return;
   let seed = {};
   try {
     const res = await fetch('data/initial-progress.json');
@@ -33,12 +64,12 @@ export async function initState() {
 }
 
 export function getEntry(id) {
-  const state = readRaw() || {};
+  const state = readRaw();
   return state[id] ? { ...state[id] } : emptyEntry();
 }
 
 export function setObtenido(id, value) {
-  const state = readRaw() || {};
+  const state = readRaw();
   const current = state[id] || emptyEntry();
   current.obtenido = !!value;
   if (!current.obtenido) current.repes = 0;
@@ -47,7 +78,7 @@ export function setObtenido(id, value) {
 }
 
 export function setRepes(id, value) {
-  const state = readRaw() || {};
+  const state = readRaw();
   const current = state[id] || emptyEntry();
   current.repes = Math.max(0, Number(value) || 0);
   if (current.repes > 0) current.obtenido = true;
@@ -56,20 +87,20 @@ export function setRepes(id, value) {
 }
 
 export function getStats() {
-  const state = readRaw() || {};
+  const state = readRaw();
   let obtenidos = 0;
   let repes = 0;
-  for (const s of STICKERS) {
+  for (const s of COUNTED_STICKERS) {
     const entry = state[s.id];
     if (entry?.obtenido) obtenidos += 1;
     if (entry?.repes) repes += entry.repes;
   }
-  return { total: STICKERS.length, obtenidos, faltan: STICKERS.length - obtenidos, repes };
+  return { total: COUNTED_STICKERS.length, obtenidos, faltan: COUNTED_STICKERS.length - obtenidos, repes };
 }
 
 export function getTeamStats(equipo) {
-  const teamStickers = STICKERS.filter((s) => s.equipo === equipo);
-  const state = readRaw() || {};
+  const teamStickers = getTeamStickers(equipo);
+  const state = readRaw();
   const obtenidos = teamStickers.filter((s) => state[s.id]?.obtenido).length;
   const total = teamStickers.length;
   const pct = total ? Math.round((obtenidos / total) * 1000) / 10 : 0;
@@ -77,7 +108,7 @@ export function getTeamStats(equipo) {
 }
 
 export function exportBackup() {
-  const state = readRaw() || {};
+  const state = readRaw();
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');

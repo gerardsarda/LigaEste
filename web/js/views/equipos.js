@@ -1,6 +1,6 @@
 import { TEAM_ORDER, SPECIAL_SECTIONS } from '../data.js';
 import { THEMES, DEFAULT_THEME } from '../themes.js';
-import { getStats, getTeamStats } from '../state.js';
+import { getStats, getTeamStats, countsTowardTotal } from '../state.js';
 import { icon } from '../icons.js';
 
 function crestStyle(theme) {
@@ -37,6 +37,7 @@ function teamRow(equipo, index, { special = false } = {}) {
             ${special ? '' : `<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">${String(index + 1).padStart(2, '0')}</span>`}
             <span class="font-body-lg text-body-lg ${complete ? 'text-primary' : 'text-on-surface'} font-bold truncate">${equipo}</span>
             ${badge}
+            ${special && !countsTowardTotal(equipo) ? '<span class="font-label-sm text-label-sm text-on-surface-variant uppercase border border-outline-variant/50 px-1.5 py-0.5 rounded">No cuenta</span>' : ''}
           </div>
           <div class="flex items-center gap-2 mt-0.5">
             <span class="font-label-sm text-label-sm text-primary-container font-bold">${obtenidos} / ${total}</span>
